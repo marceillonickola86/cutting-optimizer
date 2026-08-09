@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root{
+  --bg:#f5f7fb;
+  --card:#ffffff;
+  --line:#e5e7eb;
+  --text:#0f172a;
+  --muted:#64748b;
+  --primary:#2563eb;
+}
+
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+.card{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:24px;
+}
+
+.input{
+  width:100%;
+  border:1px solid var(--line);
+  border-radius:14px;
+  padding:10px 12px;
+  background:#fff;
+}
+
+.btn{
+  background:var(--primary);
+  color:#fff;
+  border-radius:16px;
+  padding:12px 18px;
+  font-weight:600;
+}
